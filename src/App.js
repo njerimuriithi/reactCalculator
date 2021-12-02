@@ -1,8 +1,15 @@
+import ArithmeticButtons from "./Components/ArithmeticButtons";
+import LowerButtons from "./Components/LowerButtons";
+import NumbersButton from "./Components/NumbersButton";
+
 
 function App() {
   return (
     <div className="App">
-    <h1>Hii this is a react calculator</h1>
+      <ArithmeticButtons/>
+      <NumbersButton/>
+      <LowerButtons/>
+      
     </div>
   );
 }
