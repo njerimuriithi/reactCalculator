@@ -1,16 +1,16 @@
-import ArithmeticButtons from "./Components/ArithmeticButtons";
-import LowerButtons from "./Components/LowerButtons";
-import NumbersButton from "./Components/NumbersButton";
+import Layout from "./Components/Layout";
+import './App.css'
 
 
 function App() {
+ 
   return (
     <div className="App">
-      <ArithmeticButtons/>
-      <NumbersButton/>
-      <LowerButtons/>
-      
-    </div>
+  
+      <div className="mainContents">
+<Layout/>
+</div>
+</div>
   );
 }
 

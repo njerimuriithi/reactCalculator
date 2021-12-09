@@ -1,0 +1,14 @@
+.App{
+    background-color: #95D1CC;
+    background-size: cover;
+    display: flex;
+    
+}
+.mainContents{
+margin: 100px 10px 100px 200px;
+background-color: black;
+width: 300px;
+height: 200px;
+box-shadow: 5px 3px #95D1CC;
+border-radius: 5px;
+}
